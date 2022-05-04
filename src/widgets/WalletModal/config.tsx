@@ -5,9 +5,15 @@ import TrustWallet from "./icons/TrustWallet";
 import WalletConnect from "./icons/WalletConnect";
 import BinanceChain from "./icons/BinanceChain";
 import SafePalWallet from "./icons/SafePalWallet";
+import OntoWallet from "./icons/OntoWallet";
 import { Config, ConnectorNames } from "./types";
 
 const connectors: Config[] = [
+  {
+    title: "OntoWallet",
+    icon: OntoWallet,
+    connectorId: ConnectorNames.Injected,
+  },
   {
     title: "Metamask",
     icon: Metamask,
